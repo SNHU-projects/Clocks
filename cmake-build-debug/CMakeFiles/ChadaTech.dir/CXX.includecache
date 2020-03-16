@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.cpp
+iostream
+-
+MenuOptions.h
+/Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.h
+
+/Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.h
+
+/Users/jef.dewitt/CLionProjects/Clocks/main.cpp
+iostream
+-
+MenuOptions.h
+/Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.h
+
