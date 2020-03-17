@@ -8,17 +8,14 @@
 DisplayClocks::DisplayClocks() {
 }
 
-void DisplayClocks::GetCurrentTime() {
-
-    // Calculate and display time in the proper format
-    time_t timeInMillis = std::time(nullptr);
-    std::tm* now = std::localtime(&timeInMillis);
+void DisplayClocks::DisplayCurrentTime(tm * currentTime) {
+    // Calculate and display current time in the proper format
     char buffer [80];
-    FormatClocks(now, buffer);
-
+    FormatClocks(currentTime);
 }
 
-void DisplayClocks::FormatClocks(std::tm* now, char *buffer) {
+void DisplayClocks::FormatClocks(std::tm* now) {
+    char buffer [80];
     std::cout << "*************************     *************************" << std::endl;
     std::cout << "*     12-Hour-Clock     *     *     24-Hour-Clock     *" << std::endl;
     strftime (buffer, 80, "*      %I:%M:%S %p      *     *      %H:%M:%S %p      *", now);
@@ -26,14 +23,17 @@ void DisplayClocks::FormatClocks(std::tm* now, char *buffer) {
     std::cout << "*************************     *************************" << std::endl;
 }
 
-void DisplayClocks::AddOneHour() {
-//    FormatClocks(now + 1, buffer);
+void DisplayClocks::AddOneHour(tm * currentTime) {
+    currentTime->tm_hour += 1;
+    FormatClocks(currentTime);
 }
 
-void DisplayClocks::AddOneMinute() {
-
+void DisplayClocks::AddOneMinute(tm * currentTime) {
+    currentTime->tm_min += 1;
+    FormatClocks(currentTime);
 }
 
-void DisplayClocks::AddOneSecond() {
-
+void DisplayClocks::AddOneSecond(tm * currentTime) {
+    currentTime->tm_sec += 1;
+    FormatClocks(currentTime);
 }

@@ -10,7 +10,7 @@ class MenuOptions {
 public:
     MenuOptions();
 
-    void CollectUserInput();
+    void CollectUserInput(tm *currentTime);
 };
 
 #endif //CHADATECH_MENUOPTIONS_H

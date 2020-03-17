@@ -1,18 +1,23 @@
 #include <iostream>
 #include "MenuOptions.h"
 #include "DisplayClocks.h"
+#include "ClockData.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
+    // Get current time
+    ClockData clockData;
+    tm * currentTime = clockData.GetTime();
+
     // Display 12 & 24-hour clocks
     DisplayClocks displayClocks;
-    displayClocks.GetCurrentTime();
+    displayClocks.DisplayCurrentTime(currentTime);
 
     // Display clock program menu
     MenuOptions menuOptions;
     // Collect user input and take appropriate action
-    menuOptions.CollectUserInput();
+    menuOptions.CollectUserInput(currentTime);
 
     return 0;
 }

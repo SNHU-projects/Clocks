@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ChadaTech.dir/ClockData.cpp.o"
   "CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o"
   "CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o"
   "CMakeFiles/ChadaTech.dir/main.cpp.o"

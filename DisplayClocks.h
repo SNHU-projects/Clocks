@@ -10,15 +10,15 @@ class DisplayClocks {
 public:
     DisplayClocks();
 
-    void GetCurrentTime();
+    void DisplayCurrentTime(tm *pTm);
 
-    void AddOneHour();
+    void AddOneHour(tm *currentTime);
 
-    void AddOneMinute();
+    void AddOneMinute(tm *currentTime);
 
-    void AddOneSecond();
+    void AddOneSecond(tm *currentTime);
 
-    void FormatClocks(tm *now, char *buffer);
+    void FormatClocks(tm *now);
 };
 
 

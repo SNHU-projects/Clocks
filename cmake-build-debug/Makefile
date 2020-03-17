@@ -123,6 +123,33 @@ ChadaTech/fast:
 	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/build
 .PHONY : ChadaTech/fast
 
+ClockData.o: ClockData.cpp.o
+
+.PHONY : ClockData.o
+
+# target to build an object file
+ClockData.cpp.o:
+	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/ClockData.cpp.o
+.PHONY : ClockData.cpp.o
+
+ClockData.i: ClockData.cpp.i
+
+.PHONY : ClockData.i
+
+# target to preprocess a source file
+ClockData.cpp.i:
+	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/ClockData.cpp.i
+.PHONY : ClockData.cpp.i
+
+ClockData.s: ClockData.cpp.s
+
+.PHONY : ClockData.s
+
+# target to generate assembly for a file
+ClockData.cpp.s:
+	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/ClockData.cpp.s
+.PHONY : ClockData.cpp.s
+
 DisplayClocks.o: DisplayClocks.cpp.o
 
 .PHONY : DisplayClocks.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ChadaTech"
+	@echo "... ClockData.o"
+	@echo "... ClockData.i"
+	@echo "... ClockData.s"
 	@echo "... DisplayClocks.o"
 	@echo "... DisplayClocks.i"
 	@echo "... DisplayClocks.s"

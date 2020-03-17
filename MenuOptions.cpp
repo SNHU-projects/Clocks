@@ -19,7 +19,7 @@ MenuOptions::MenuOptions() {
 
 }
 
-void MenuOptions::CollectUserInput() {
+void MenuOptions::CollectUserInput(tm * currentTime) {
     DisplayClocks displayClocks;
     int userInput;
 
@@ -32,21 +32,20 @@ void MenuOptions::CollectUserInput() {
 
         switch(userInput) {
             case 1:
-                displayClocks.AddOneHour();
+                displayClocks.AddOneHour(currentTime);
                 MenuOptions();
                 break;
             case 2:
-                displayClocks.AddOneMinute();
+                displayClocks.AddOneMinute(currentTime);
                 MenuOptions();
                 break;
             case 3:
-                displayClocks.AddOneSecond();
+                displayClocks.AddOneSecond(currentTime);
                 MenuOptions();
                 break;
             case 4:
                 std::cout << "System exiting. Goodbye." << std::endl;
                 exit(0);
-                break;
             default:
                 std::cout << "Please try again." << std::endl;
         }
