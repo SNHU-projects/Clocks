@@ -1,5 +1,6 @@
 #include <iostream>
 #include "MenuOptions.h"
+#include "DisplayClocks.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -7,9 +8,15 @@ int main() {
     MenuOptions menuOptions;
     menuOptions.Test();
 
-//    menuOptions.firstTestFunc();
+    DisplayClocks displayClocks;
+    displayClocks.GetCurrentTime();
 
-//    menuOptions.firstTestFunc();
+    // Call clock faces to display
+    // display 12 hour face
+    // display 24 hour face
+
+    // Call menu options to display
+    // display menu options
 
     return 0;
 }

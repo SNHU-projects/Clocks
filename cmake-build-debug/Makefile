@@ -123,6 +123,33 @@ ChadaTech/fast:
 	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/build
 .PHONY : ChadaTech/fast
 
+DisplayClocks.o: DisplayClocks.cpp.o
+
+.PHONY : DisplayClocks.o
+
+# target to build an object file
+DisplayClocks.cpp.o:
+	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o
+.PHONY : DisplayClocks.cpp.o
+
+DisplayClocks.i: DisplayClocks.cpp.i
+
+.PHONY : DisplayClocks.i
+
+# target to preprocess a source file
+DisplayClocks.cpp.i:
+	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.i
+.PHONY : DisplayClocks.cpp.i
+
+DisplayClocks.s: DisplayClocks.cpp.s
+
+.PHONY : DisplayClocks.s
+
+# target to generate assembly for a file
+DisplayClocks.cpp.s:
+	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.s
+.PHONY : DisplayClocks.cpp.s
+
 MenuOptions.o: MenuOptions.cpp.o
 
 .PHONY : MenuOptions.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ChadaTech"
+	@echo "... DisplayClocks.o"
+	@echo "... DisplayClocks.i"
+	@echo "... DisplayClocks.s"
 	@echo "... MenuOptions.o"
 	@echo "... MenuOptions.i"
 	@echo "... MenuOptions.s"

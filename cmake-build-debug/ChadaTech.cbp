@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jef.dewitt/CLionProjects/Clocks/DisplayClocks.cpp">
+			<Option target="ChadaTech"/>
+		</Unit>
+		<Unit filename="/Users/jef.dewitt/CLionProjects/Clocks/DisplayClocks.h">
+			<Option target="ChadaTech"/>
+		</Unit>
 		<Unit filename="/Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.cpp">
 			<Option target="ChadaTech"/>
 		</Unit>

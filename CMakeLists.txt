@@ -3,4 +3,4 @@ project(ChadaTech)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ChadaTech main.cpp MenuOptions.h MenuOptions.cpp)
+add_executable(ChadaTech main.cpp MenuOptions.h MenuOptions.cpp DisplayClocks.cpp DisplayClocks.h DisplayClocks.cpp DisplayClocks.h)

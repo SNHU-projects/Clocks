@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/jef.dewitt/CLionProjects/Clocks/DisplayClocks.cpp" "/Users/jef.dewitt/CLionProjects/Clocks/cmake-build-debug/CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o"
   "/Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.cpp" "/Users/jef.dewitt/CLionProjects/Clocks/cmake-build-debug/CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o"
   "/Users/jef.dewitt/CLionProjects/Clocks/main.cpp" "/Users/jef.dewitt/CLionProjects/Clocks/cmake-build-debug/CMakeFiles/ChadaTech.dir/main.cpp.o"
   )

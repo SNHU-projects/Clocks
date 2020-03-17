@@ -7,10 +7,9 @@
 
 class MenuOptions {
 
-    public:
-//        MenuOptions();
-        int Test();
-//        firstTestFunc();
+public:
+    MenuOptions();
+    int Test();
 };
 
 #endif //CHADATECH_MENUOPTIONS_H
