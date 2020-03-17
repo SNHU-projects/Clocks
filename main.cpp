@@ -5,18 +5,14 @@
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    MenuOptions menuOptions;
-    menuOptions.Test();
-
+    // Display 12 & 24-hour clocks
     DisplayClocks displayClocks;
     displayClocks.GetCurrentTime();
 
-    // Call clock faces to display
-    // display 12 hour face
-    // display 24 hour face
-
-    // Call menu options to display
-    // display menu options
+    // Display clock program menu
+    MenuOptions menuOptions;
+    // Collect user input and take appropriate action
+    menuOptions.CollectUserInput();
 
     return 0;
 }

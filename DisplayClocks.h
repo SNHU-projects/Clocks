@@ -9,7 +9,16 @@
 class DisplayClocks {
 public:
     DisplayClocks();
+
     void GetCurrentTime();
+
+    void AddOneHour();
+
+    void AddOneMinute();
+
+    void AddOneSecond();
+
+    void FormatClocks(tm *now, char *buffer);
 };
 
 

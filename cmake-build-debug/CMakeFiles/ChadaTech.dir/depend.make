@@ -4,6 +4,7 @@
 CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o: ../DisplayClocks.cpp
 CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o: ../DisplayClocks.h
 
+CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o: ../DisplayClocks.h
 CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o: ../MenuOptions.cpp
 CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o: ../MenuOptions.h
 

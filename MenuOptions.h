@@ -9,7 +9,8 @@ class MenuOptions {
 
 public:
     MenuOptions();
-    int Test();
+
+    void CollectUserInput();
 };
 
 #endif //CHADATECH_MENUOPTIONS_H

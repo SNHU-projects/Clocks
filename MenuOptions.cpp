@@ -4,19 +4,53 @@
 
 #include <iostream>
 #include "MenuOptions.h"
+#include "DisplayClocks.h"
+
 
 MenuOptions::MenuOptions() {
-    std::cout << "Constructor activated!" << std::endl;
+
+    // Build menu interface
+    std::cout << "               *************************" << std::endl;
+    std::cout << "               *  1 - Add One Hour     *" << std::endl;
+    std::cout << "               *  2 - Add One Minute   *" << std::endl;
+    std::cout << "               *  3 - Add One Second   *" << std::endl;
+    std::cout << "               *  4 - Exit Program     *" << std::endl;
+    std::cout << "               *************************" << std::endl;
+
 }
 
-int MenuOptions::Test() {
-    std::cout << "Class member method activated!" << std::endl;
-    return 0;
-}
+void MenuOptions::CollectUserInput() {
+    DisplayClocks displayClocks;
+    int userInput;
 
-// Build menu interface
-// Frame the 4 options in asterisks
-// Option 1 - Add One Hour
-// Option 2 - Add One Minute
-// Option 3 - Add One Second
-// Option 4 - Exit Program
+    do {
+
+        std::cout << "What would you like to do? " << std::endl;
+        std::cin >> userInput;
+        std::cin.clear(); // clears input error flag
+        std::cin.ignore(100,'\n'); // clears out leftover characters, including newlines
+
+        switch(userInput) {
+            case 1:
+                displayClocks.AddOneHour();
+                MenuOptions();
+                break;
+            case 2:
+                displayClocks.AddOneMinute();
+                MenuOptions();
+                break;
+            case 3:
+                displayClocks.AddOneSecond();
+                MenuOptions();
+                break;
+            case 4:
+                std::cout << "System exiting. Goodbye." << std::endl;
+                exit(0);
+                break;
+            default:
+                std::cout << "Please try again." << std::endl;
+        }
+
+    } while (userInput != 4);
+
+}

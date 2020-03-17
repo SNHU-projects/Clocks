@@ -12,31 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfeb0f8e-9b63-4065-b88a-8a08edc1a58a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DisplayClocks.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DisplayClocks.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DisplayClocks.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DisplayClocks.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DisplayClocks.h" beforeDir="false" afterPath="$PROJECT_DIR$/DisplayClocks.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuOptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuOptions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuOptions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ChadaTech.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ChadaTech" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ChadaTech" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ChadaTech.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ChadaTech.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584357166588</updated>
       <workItem from="1584357170991" duration="12551000" />
-      <workItem from="1584393257840" duration="5812000" />
+      <workItem from="1584393257840" duration="10409000" />
     </task>
     <servers />
   </component>
@@ -105,25 +92,25 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="856" y="394" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1584407963402" />
-    <state width="1313" height="267" key="GridCell.Tab.0.bottom" timestamp="1584408099970">
+    <state width="1438" height="206" key="GridCell.Tab.0.bottom" timestamp="1584445011683">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1313" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584408099970" />
+    <state width="1438" height="206" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584445011683" />
     <state width="1429" height="267" key="GridCell.Tab.0.bottom/862.-1057.1920.1057/0.23.1680.1027/-1058.-1057.1920.1057@0.23.1680.1027" timestamp="1584393278316" />
-    <state width="1313" height="267" key="GridCell.Tab.0.center" timestamp="1584408099969">
+    <state width="1438" height="206" key="GridCell.Tab.0.center" timestamp="1584445011682">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1313" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584408099969" />
+    <state width="1438" height="206" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584445011682" />
     <state width="1429" height="267" key="GridCell.Tab.0.center/862.-1057.1920.1057/0.23.1680.1027/-1058.-1057.1920.1057@0.23.1680.1027" timestamp="1584393278314" />
-    <state width="1313" height="267" key="GridCell.Tab.0.left" timestamp="1584408099968">
+    <state width="1438" height="206" key="GridCell.Tab.0.left" timestamp="1584445011681">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1313" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584408099968" />
+    <state width="1438" height="206" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584445011681" />
     <state width="1429" height="267" key="GridCell.Tab.0.left/862.-1057.1920.1057/0.23.1680.1027/-1058.-1057.1920.1057@0.23.1680.1027" timestamp="1584393278312" />
-    <state width="1313" height="267" key="GridCell.Tab.0.right" timestamp="1584408099970">
+    <state width="1438" height="206" key="GridCell.Tab.0.right" timestamp="1584445011682">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1313" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584408099970" />
+    <state width="1438" height="206" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584445011682" />
     <state width="1429" height="267" key="GridCell.Tab.0.right/862.-1057.1920.1057/0.23.1680.1027/-1058.-1057.1920.1057@0.23.1680.1027" timestamp="1584393278315" />
     <state x="-470" y="-693" key="com.intellij.ide.util.TipDialog" timestamp="1584393259070">
       <screen x="-1058" y="-1057" width="1920" height="1057" />
