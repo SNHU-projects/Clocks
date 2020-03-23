@@ -12,6 +12,7 @@ public:
     ClockData();
 
     tm * GetTime();
+
 };
 
 

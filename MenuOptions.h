@@ -10,6 +10,8 @@ class MenuOptions {
 public:
     MenuOptions();
 
+    void DisplayMenu();
+
     void CollectUserInput(tm *currentTime);
 };
 

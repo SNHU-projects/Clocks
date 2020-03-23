@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/jef.dewitt/CLionProjects/Clocks/ClockData.cpp
-time.h
--
-ctime
--
-ClockData.h
-/Users/jef.dewitt/CLionProjects/Clocks/ClockData.h
-
-/Users/jef.dewitt/CLionProjects/Clocks/ClockData.h
-
 /Users/jef.dewitt/CLionProjects/Clocks/DisplayClocks.h
 
 /Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.cpp
@@ -25,16 +15,8 @@ MenuOptions.h
 /Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.h
 DisplayClocks.h
 /Users/jef.dewitt/CLionProjects/Clocks/DisplayClocks.h
+chrono
+/Users/jef.dewitt/CLionProjects/Clocks/chrono
 
 /Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.h
-
-/Users/jef.dewitt/CLionProjects/Clocks/main.cpp
-iostream
--
-MenuOptions.h
-/Users/jef.dewitt/CLionProjects/Clocks/MenuOptions.h
-DisplayClocks.h
-/Users/jef.dewitt/CLionProjects/Clocks/DisplayClocks.h
-ClockData.h
-/Users/jef.dewitt/CLionProjects/Clocks/ClockData.h
 

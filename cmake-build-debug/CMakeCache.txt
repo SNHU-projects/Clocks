@@ -151,7 +151,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ChadaTech
+CMAKE_PROJECT_NAME:STATIC=Clocks
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -217,6 +217,12 @@ ChadaTech_BINARY_DIR:STATIC=/Users/jef.dewitt/CLionProjects/Clocks/cmake-build-d
 
 //Value Computed by CMake
 ChadaTech_SOURCE_DIR:STATIC=/Users/jef.dewitt/CLionProjects/Clocks
+
+//Value Computed by CMake
+Clocks_BINARY_DIR:STATIC=/Users/jef.dewitt/CLionProjects/Clocks/cmake-build-debug
+
+//Value Computed by CMake
+Clocks_SOURCE_DIR:STATIC=/Users/jef.dewitt/CLionProjects/Clocks
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl

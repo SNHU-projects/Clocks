@@ -4,7 +4,6 @@
 #include "ClockData.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
 
     // Get current time
     ClockData clockData;

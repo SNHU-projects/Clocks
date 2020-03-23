@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ChadaTech
+# Target rules for targets named SDL2Test
 
 # Build rule for target.
-ChadaTech: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ChadaTech
-.PHONY : ChadaTech
+SDL2Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SDL2Test
+.PHONY : SDL2Test
 
 # fast build rule for target.
-ChadaTech/fast:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/build
-.PHONY : ChadaTech/fast
+SDL2Test/fast:
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/build
+.PHONY : SDL2Test/fast
 
 ClockData.o: ClockData.cpp.o
 
@@ -129,7 +129,7 @@ ClockData.o: ClockData.cpp.o
 
 # target to build an object file
 ClockData.cpp.o:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/ClockData.cpp.o
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/ClockData.cpp.o
 .PHONY : ClockData.cpp.o
 
 ClockData.i: ClockData.cpp.i
@@ -138,7 +138,7 @@ ClockData.i: ClockData.cpp.i
 
 # target to preprocess a source file
 ClockData.cpp.i:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/ClockData.cpp.i
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/ClockData.cpp.i
 .PHONY : ClockData.cpp.i
 
 ClockData.s: ClockData.cpp.s
@@ -147,7 +147,7 @@ ClockData.s: ClockData.cpp.s
 
 # target to generate assembly for a file
 ClockData.cpp.s:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/ClockData.cpp.s
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/ClockData.cpp.s
 .PHONY : ClockData.cpp.s
 
 DisplayClocks.o: DisplayClocks.cpp.o
@@ -156,7 +156,7 @@ DisplayClocks.o: DisplayClocks.cpp.o
 
 # target to build an object file
 DisplayClocks.cpp.o:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.o
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/DisplayClocks.cpp.o
 .PHONY : DisplayClocks.cpp.o
 
 DisplayClocks.i: DisplayClocks.cpp.i
@@ -165,7 +165,7 @@ DisplayClocks.i: DisplayClocks.cpp.i
 
 # target to preprocess a source file
 DisplayClocks.cpp.i:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.i
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/DisplayClocks.cpp.i
 .PHONY : DisplayClocks.cpp.i
 
 DisplayClocks.s: DisplayClocks.cpp.s
@@ -174,7 +174,7 @@ DisplayClocks.s: DisplayClocks.cpp.s
 
 # target to generate assembly for a file
 DisplayClocks.cpp.s:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/DisplayClocks.cpp.s
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/DisplayClocks.cpp.s
 .PHONY : DisplayClocks.cpp.s
 
 MenuOptions.o: MenuOptions.cpp.o
@@ -183,7 +183,7 @@ MenuOptions.o: MenuOptions.cpp.o
 
 # target to build an object file
 MenuOptions.cpp.o:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/MenuOptions.cpp.o
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/MenuOptions.cpp.o
 .PHONY : MenuOptions.cpp.o
 
 MenuOptions.i: MenuOptions.cpp.i
@@ -192,7 +192,7 @@ MenuOptions.i: MenuOptions.cpp.i
 
 # target to preprocess a source file
 MenuOptions.cpp.i:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/MenuOptions.cpp.i
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/MenuOptions.cpp.i
 .PHONY : MenuOptions.cpp.i
 
 MenuOptions.s: MenuOptions.cpp.s
@@ -201,7 +201,7 @@ MenuOptions.s: MenuOptions.cpp.s
 
 # target to generate assembly for a file
 MenuOptions.cpp.s:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/MenuOptions.cpp.s
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/MenuOptions.cpp.s
 .PHONY : MenuOptions.cpp.s
 
 main.o: main.cpp.o
@@ -210,7 +210,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -219,7 +219,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -228,7 +228,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/ChadaTech.dir/build.make CMakeFiles/ChadaTech.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/SDL2Test.dir/build.make CMakeFiles/SDL2Test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -239,7 +239,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ChadaTech"
+	@echo "... SDL2Test"
 	@echo "... ClockData.o"
 	@echo "... ClockData.i"
 	@echo "... ClockData.s"
